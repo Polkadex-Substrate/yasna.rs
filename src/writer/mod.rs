@@ -1205,7 +1205,7 @@ impl<'a> DERWriter<'a> {
 /// ```
 #[derive(Debug)]
 pub struct DERWriterSeq<'a> {
-    buf: &'a mut Vec<u8>,
+    pub buf: &'a mut Vec<u8>,
 }
 
 impl<'a> DERWriterSeq<'a> {
